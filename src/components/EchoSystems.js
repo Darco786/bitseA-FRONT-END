@@ -13,7 +13,7 @@ const EchoSystems = () => {
             Ordinal exclusive NFT marketplace
           </div>
         </div>
-        <div className="h-72 w-72 bg-slate-700 rounded-lg flex flex-col items-center justify-center">
+        <div className="h-72 w-72 bg-[#3C2B9E] rounded-lg flex flex-col items-center justify-center">
           <div className="h-20 w-20 rounded-full shadow-lg mb-14">h</div>
           <div className="text-white text-lg px-10 text-center">
             Ordinal exclusive NFT marketplace
