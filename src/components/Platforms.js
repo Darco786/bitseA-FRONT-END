@@ -6,11 +6,11 @@ import uniImg  from '../assets/uni.png'
 const Platforms = () => {
   return (
     <div className='flex justify-center flex-wrap px-8 pt-5'>
-        <img className='mx-10 my-5' src={btcImg}/>
-        <img className='mx-10 my-5' src={ethImg}/>
-        <img className='mx-10 my-5' src={uniImg}/>
-        <img className='mx-10 my-5' src={ordImg}/>
-        <img className='mx-10 my-5' src={btcImg}/>
+        <img className='mx-10 my-5' src={btcImg} alt='pt-img'/>
+        <img className='mx-10 my-5' src={ethImg} alt='pt-img'/>
+        <img className='mx-10 my-5' src={uniImg} alt='pt-img'/>
+        <img className='mx-10 my-5' src={ordImg} alt='pt-img'/>
+        <img className='mx-10 my-5' src={btcImg} alt='pt-img'/>
     </div>
   )
 }

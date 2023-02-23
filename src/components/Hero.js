@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="flex flex-col justify-start">
         <h1 className="text-white  flex flex-col justify-start items-start mb-5 text-3xl font-semibold md:text-2xl md:leading-9 lg:text-4xl lg:leading-[3.5rem]">
           <div className="flex items-center font-primary text-4xl leading-[46px] font-extrabold tracking-wide">
-            Explore <img src={btn1} className="h-10 w-28 mx-5 rounded-lg" />
+            Explore <img src={btn1} className="h-10 w-28 mx-5 rounded-lg" alt='pt-img'/>
             <span>Mint</span>
           </div>
           TRADE RARE NFTs,

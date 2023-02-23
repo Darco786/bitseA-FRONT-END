@@ -19,7 +19,7 @@ export default function Navbar() {
     <Popover className="relative bg-transparent z-10 py-2 px-10">
       <div className="">
         <div className="flex items-center justify-between  py-3  md:space-x-10">
-          <img src={logo} className="h-10" />
+          <img src={logo} className="h-10" alt='pt-img'/>
           <Popover.Group
             as="nav"
             className="hidden space-x-10 mx-auto md:flex-grow md:flex md:justify-center"
@@ -40,8 +40,8 @@ export default function Navbar() {
             })}
           </Popover.Group>
           <div className=" flex items-center justify-end md:flex md:flex-1 lg:w-0">
-            <img className="mx-2" src={icon}/>
-            <img className="mx-2" src={icon1}/>
+            <img className="mx-2" src={icon} alt='pt-img'/>
+            <img className="mx-2" src={icon1} alt='pt-img'/>
             <a
               href="/Wallet"
               className="mr-8 ml-3 hidden items-center space-x-2 whitespace-nowrap rounded-full  py-2 px-6 text-sm font-medium text-black bg-white hover:text-gray-100 sm:flex md:mr-0"
@@ -81,7 +81,7 @@ export default function Navbar() {
               <div className="flex items-center justify-between">
                 <div className="focus:border:0 flex items-center justify-center space-x-1 focus:outline-0 focus:ring-0">
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center space-x-1  bg-gradient-to-l from-[#e250e5] to-[#4b50e6] bg-clip-text"
                   >
                     <FireIcon className="h-8 w-auto fill-black stroke-[white] sm:h-10" />
@@ -109,18 +109,18 @@ export default function Navbar() {
               <div className="mb-2 grid grid-cols-1 gap-y-1 gap-x-1">
                 {navItems.map((nav, i) => {
                   return (
-                    <a
+                    <button
                       key={i}
                       href={nav.route}
                       className={`rounded-md py-2 px-2 text-base font-medium  text-white hover:bg-gray-900
                         ${
-                          i == 0 ? " bg-gray-900 text-[#e250e5] " : "text-white"
+                          i === 0 ? " bg-gray-900 text-[#e250e5] " : "text-white"
                         }
                         `}
                     >
                       {/* false ? " text-pink-400 bg-gray-900 " : "" */}
                       {nav.label}
-                    </a>
+                    </button>
                   );
                 })}
               </div>
