@@ -8,7 +8,7 @@ const EchoSystems = () => {
         BTSEA ECHOSYSTEM
       </h1>
       <div className="flex justify-center flex-wrap  mx-4">
-        <div className="h-72 w-72 m-2 bg-[#ffffff14] rounded-lg flex flex-col items-center justify-center">
+        <div className="h-72 w-72 m-2 bg-[#ffffff14]  rounded-lg flex flex-col items-center justify-center hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer">
           <div className="h-20 w-20 rounded-full shadow-lg bg-[#ffffff21] flex justify-center items-center mb-14">
             <CalendarIcon className="h-8 w-8 text-white" />
           </div>
@@ -16,7 +16,7 @@ const EchoSystems = () => {
             Ordinal exclusive NFT marketplace
           </div>
         </div>
-        <div className="h-72 w-72 m-2 bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB]  rounded-lg flex flex-col items-center justify-center">
+        <div className="h-72 w-72 m-2 bg-[#ffffff14] hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  rounded-lg flex flex-col items-center justify-center">
           <div className="h-20 w-20 rounded-full shadow-lg bg-[#ffffff21] flex justify-center items-center mb-14">
             <CalendarIcon className="h-8 w-8 text-white" />
           </div>
@@ -24,7 +24,7 @@ const EchoSystems = () => {
             NFT Minter & launch pad{" "}
           </div>
         </div>
-        <div className="h-72 w-72 m-2 bg-[#ffffff14] rounded-lg flex flex-col items-center justify-center">
+        <div className="h-72 w-72 m-2 bg-[#ffffff14] hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  rounded-lg flex flex-col items-center justify-center">
           <div className="h-20 w-20 rounded-full shadow-lg bg-[#ffffff21] flex justify-center items-center mb-14">
             <CalendarIcon className="h-8 w-8 text-white" />
           </div>
@@ -32,7 +32,7 @@ const EchoSystems = () => {
             Governance DAO{" "}
           </div>
         </div>
-        <div className="h-72 w-72 m-2 bg-[#ffffff14] rounded-lg flex flex-col items-center justify-center">
+        <div className="h-72 w-72 m-2 bg-[#ffffff14] hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  rounded-lg flex flex-col items-center justify-center">
           <div className="h-20 w-20 rounded-full shadow-lg bg-[#ffffff21] flex justify-center items-center mb-14">
             <CalendarIcon className="h-8 w-8 text-white" />
           </div>
