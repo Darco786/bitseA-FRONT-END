@@ -1,5 +1,5 @@
 import React from "react";
-
+import Line from '../assets/Line.png'
 const RoadMaps = () => {
   return (
     <section id="roadmap" className="mt-12 mb-6">
@@ -15,7 +15,7 @@ const RoadMaps = () => {
               <h1>PHASE 2</h1>
             </div>
 
-            <div>
+            <div className="sub-box">
               <ul>
                 <li> STAKING</li>
                 <li>FULL DAPP RELEASE</li>
@@ -43,7 +43,9 @@ const RoadMaps = () => {
           </div>
         </div>
       </div>
-
+<div>
+  <img src={Line} alt=""/>
+</div>
       <div className="container">
         <div className="flex justify-center">
           <div className="box-1">

@@ -10,3 +10,11 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+
+.sub-box{
+  background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(9.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 25px;
+}
