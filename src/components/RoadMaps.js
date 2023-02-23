@@ -2,7 +2,7 @@ import React from "react";
 import Line from '../assets/Line.png'
 const RoadMaps = () => {
   return (
-    <section id="roadmap" className="mt-12 mb-6 pb-40">
+    <section id="roadmap" className="mt-12 mb-6 pb-60">
       <div className="text-center mb-20">
         <h1 className="text-white mt-32 mb-20 font-primary font-[700] text-4xl leading-[46px] text-center">
           ROADMAP
