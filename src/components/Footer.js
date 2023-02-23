@@ -16,22 +16,22 @@ const Footer = () => {
     </div>
 
     <div className='mt-2 mb-2 pb-3 flex justify-center gap-6 align-middle items-center'>
-      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary text-white text-xl'>
+      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  text-white text-xl'>
       <BsTwitter/>
       </a>
 
-      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary text-white text-xl'>
+      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  text-white text-xl'>
       <img src={Bsc} alt="" className='h-[19px]'/>
       </a>
 
-      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary text-white text-xl'>
+      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  text-white text-xl'>
       <FaTelegramPlane/>
       </a>
 
-      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary text-white text-xl'>
+      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  text-white text-xl'>
       <BsMedium/>
       </a>
-      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary text-white text-xl'>
+      <a href="/" className='pt-3 pb-3 pr-4 pl-4 rounded-[4px] bg-gray-primary hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  text-white text-xl'>
       <SiGitbook/>
       </a>
 

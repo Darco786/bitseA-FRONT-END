@@ -40,11 +40,11 @@ export default function Navbar() {
             })}
           </Popover.Group>
           <div className=" flex items-center justify-end md:flex md:flex-1 lg:w-0">
-            <img className="mx-2" src={icon} alt='pt-img'/>
+            <img className="mx-2" src={icon} alt='pt-img' />
             <img className="mx-2" src={icon1} alt='pt-img'/>
             <a
               href="/Wallet"
-              className="mr-8 ml-3 hidden items-center space-x-2 whitespace-nowrap rounded-full  py-2 px-6 text-sm font-medium text-black bg-white hover:text-gray-100 sm:flex md:mr-0"
+              className="mr-8 ml-3 hidden items-center space-x-2 whitespace-nowrap rounded-full  py-2 px-6 text-sm font-medium text-black bg-white hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer sm:flex md:mr-0"
             >
               <span>LAUNCH APP</span>
             </a>
