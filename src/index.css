@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 html {
   width: 100vw;
@@ -11,10 +11,76 @@ html {
   box-sizing: border-box;
 }
 
-.sub-box{
+.sub-box {
   background: rgba(255, 255, 255, 0.05);
-backdrop-filter: blur(9.5px);
-/* Note: backdrop-filter has minimal browser support */
+  backdrop-filter: blur(9.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  padding: 4rem 8rem 2rem 3rem;
+  width: 500px;
+  height: 289px;
+  border-radius: 25px;
+}
+.sub-box2 {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(9.5px);
+  backdrop-filter: blur(9.5px);
+  padding: 4rem 8rem 2rem 3rem;
+  width: 500px;
+  height: 186px;
+  border-radius: 25px;
+}
+.sub-box ul li {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  list-style: circle;
+}
 
-border-radius: 25px;
+.sub-box2 ul li {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  list-style: circle;
+}
+.line-road {
+  position: absolute;
+  margin-top: -32rem;
+  left: 50%;
+}
+
+.phase-btn {
+  height: 65px;
+  width: 180px;
+  margin: auto;
+  position: relative;
+  /* margin-top: -4%; */
+  top: 23px;
+  padding: 18px;
+  z-index: 2;
+  text-align: center;
+  /* align-items: center; */
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.box-2 {
+  position: relative;
+  top: -50px;
+}
+
+.box-4 {
+  position: relative;
+  top: -50px;
 }
