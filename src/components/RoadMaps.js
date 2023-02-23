@@ -9,7 +9,7 @@ const RoadMaps = () => {
         </h1>
       </div>
       <div className="container">
-        <div className="flex justify-around mb-32 ">
+        <div className="  flex justify-around mb-32 flex-wrap ">
           <div className="box-1">
             <div className="bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
               <h1>PHASE 2</h1>
@@ -47,7 +47,7 @@ const RoadMaps = () => {
   <img src={Line} alt="" className="line-road"/>
 </div>
       <div className="container">
-        <div className="flex justify-around mt-16">
+        <div className="flex justify-around mt-16 flex-wrap">
           <div className="box-1">
             <div className="bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
               <h1>PHASE 4</h1>
