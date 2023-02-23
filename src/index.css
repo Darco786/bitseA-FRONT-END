@@ -113,3 +113,40 @@ html {
     width: 100%;
     height: auto;     
 }
+
+.side-b{
+  position: absolute;
+  z-index: 0;
+
+  
+  left: 0;
+  top: -6px;
+}
+
+.bit-2{
+  position: absolute;
+  right: 0;
+}
+
+.bit-3{
+  position: absolute;
+  right: 0;
+  margin-top: -16%;
+}
+
+
+@media (max-width:768px) {
+
+  .side-b{
+ display: none;
+}
+
+.bit-2{
+  display: none;
+}
+
+.bit-3{
+ display: none;
+}
+
+}

@@ -4,6 +4,8 @@ import img2 from "../assets/nft (2).png";
 import img3 from "../assets/nft (3).png";
 import img4 from "../assets/nft (4).png";
 import img5 from "../assets/nft (5).png";
+import img6 from "../assets/elements/bit2.png";
+import img7 from "../assets/elements/blue.png";
 
 const OrdinalNFTs = () => {
   return (
@@ -32,6 +34,8 @@ const OrdinalNFTs = () => {
           <img className="h-full w-full" src={img3}  alt='pt-img'/>
         </div>
       </div>
+      <img src={img6} alt="" className="bit-2"/>
+      <img src={img7} alt="" className="bit-3"/>
     </div>
   );
 };
