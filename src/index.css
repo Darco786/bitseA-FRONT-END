@@ -16,8 +16,6 @@ html {
   backdrop-filter: blur(9.5px);
   /* Note: backdrop-filter has minimal browser support */
   padding: 4rem 8rem 2rem 3rem;
-  width: 500px;
-  height: 289px;
   border-radius: 25px;
 }
 .sub-box2 {
