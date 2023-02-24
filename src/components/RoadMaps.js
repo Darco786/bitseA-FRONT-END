@@ -1,5 +1,6 @@
 import React from "react";
 import Line from '../assets/Line.png'
+import MobRoad from "./MobRoad";
 const RoadMaps = () => {
   return (
     <section id="roadmap" className="mt-12 mb-6 pb-60">
@@ -8,6 +9,8 @@ const RoadMaps = () => {
           ROADMAP
         </h1>
       </div>
+      <MobRoad/>
+      <div className="pc-road">
       <div className="container">
         <div className="  flex justify-around mb-32 flex-wrap ">
           <div className="box-1">
@@ -82,6 +85,7 @@ const RoadMaps = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
