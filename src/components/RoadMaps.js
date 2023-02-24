@@ -12,11 +12,11 @@ const RoadMaps = () => {
       <div className="container mx-auto">
         <div className=" mx-auto flex justify-around mb-32 flex-wrap ">
           <div className="box-1">
-            <div className="bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
+            <div className="bg-gradient-to-r z-50 from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
               <h1>PHASE 2</h1>
             </div>
 
-            <div className="sub-box w-[80vw] z-50 sm:w-[400px] md:w-[450px] lg:w-[500px] relative">
+            <div className="sub-box w-[80vw] z-0 sm:w-[400px] md:w-[450px] sm:h-fit lg:w-[500px] relative">
               <img src={designImg} className="absolute inset-0" />
               <ul>
                 <li> STAKING</li>
@@ -29,11 +29,11 @@ const RoadMaps = () => {
           </div>
 
           <div className="box-2">
-            <div className="bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
+            <div className="bg-gradient-to-r z-50 from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
               <h1>PHASE 1</h1>
             </div>
 
-            <div className="sub-box w-[80vw] z-50 sm:w-[400px] md:w-[450px] lg:w-[500px] relative">
+            <div className="sub-box w-[80vw] z-0 sm:w-[400px] md:w-[450px] sm:h-fit lg:w-[500px] relative">
               <img src={designImg} className="absolute inset-0" />
               <ul>
                 <li> CONCEPT BUILDING</li>
@@ -52,11 +52,11 @@ const RoadMaps = () => {
       <div className="container mx-auto">
         <div className="flex justify-around mt-16 flex-wrap">
           <div className="box-1">
-            <div className="bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
+            <div className="bg-gradient-to-r z-50 from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
               <h1>PHASE 4</h1>
             </div>
 
-            <div className="sub-box w-[80vw] z-50 sm:w-[400px] md:w-[450px] lg:w-[500px] relative">
+            <div className="sub-box w-[80vw] z-0 sm:w-[400px] md:w-[450px] h-fit lg:w-[500px] relative">
               <img src={designImg} className="absolute inset-0" />
               <ul>
                 <li> MAJOR MARKETING CAMPAIGN AFTER FULL </li>
@@ -70,11 +70,11 @@ const RoadMaps = () => {
           </div>
 
           <div className="box-2">
-            <div className="bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
+            <div className="bg-gradient-to-r z-50 from-[#3C2B9E] to-[#8D08EB] rounded-[85px] text-center phase-btn">
               <h1>PHASE 3</h1>
             </div>
 
-            <div className="sub-box w-[80vw] z-50 sm:w-[400px] md:w-[450px] lg:w-[500px] h-fit relative">
+            <div className="sub-box w-[80vw] z-0 sm:w-[400px] md:w-[450px] sm:h-fit lg:w-[500px] h-fit relative">
               <img src={designImg} className="absolute inset-0" />
               <ul>
                 <li> EXCHANGE LISTING</li>

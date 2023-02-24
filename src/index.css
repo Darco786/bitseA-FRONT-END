@@ -131,9 +131,43 @@ html {
   right: 0;
   margin-top: -16%;
 }
+.mob-road{
+  display: none;
+}
+.pc-road{
+  display: block;
+}
 
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #ffffff00;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media (max-width:768px) {
+  .pc-road{
+    display: none;
+  }
+  .mob-road{
+    display: block;
+  }
 
   .side-b{
  display: none;
@@ -148,5 +182,18 @@ html {
 }
 .line-road{
   display: none;
+}
+
+.sub-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(9.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  padding: 4rem 8rem 2rem 3rem;
+  width: auto;
+  height: 289px;
+  border-radius: 25px;
+}
+.sub-box2{
+  width: auto;
 }
 }
