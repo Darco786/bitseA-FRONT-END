@@ -3,8 +3,8 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { FireIcon } from "@heroicons/react/24/solid";
 import { Bars3Icon, XMarkIcon, WalletIcon } from "@heroicons/react/24/outline";
-import icon from '../assets/Vector.png'
-import icon1 from '../assets/Vector (1).png'
+import icon from "../assets/Vector.png";
+import icon1 from "../assets/Vector (1).png";
 let navItems = [
   { label: "Home", route: "/" },
   { label: "BUY", route: "buy" },
@@ -19,7 +19,7 @@ export default function Navbar() {
     <Popover className="relative bg-transparent z-10 py-2 px-10">
       <div className="">
         <div className="flex items-center justify-between  py-3  md:space-x-10">
-          <img src={logo} className="h-10" alt='pt-img'/>
+          <img src={logo} className="h-10" alt="pt-img" />
           <Popover.Group
             as="nav"
             className="hidden space-x-10 mx-auto md:flex-grow md:flex md:justify-center"
@@ -40,8 +40,8 @@ export default function Navbar() {
             })}
           </Popover.Group>
           <div className=" flex items-center justify-end md:flex md:flex-1 lg:w-0">
-            <img className="mx-2" src={icon} alt='pt-img' />
-            <img className="mx-2" src={icon1} alt='pt-img'/>
+            <img className="mx-2" src={icon} alt="pt-img" />
+            <img className="mx-2" src={icon1} alt="pt-img" />
             <a
               href="/Wallet"
               className="mr-8 ml-3 hidden items-center space-x-2 whitespace-nowrap rounded-full  py-2 px-6 text-sm font-medium text-black bg-white hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer sm:flex md:mr-0"
@@ -74,7 +74,7 @@ export default function Navbar() {
       >
         <Popover.Panel
           focus
-          className="absolute inset-x-0 top-0 origin-top-right transform py-2 transition md:hidden"
+          className="absolute right-6 left-2 top-0 origin-top-right transform py-2 transition md:hidden"
         >
           <div className=" rounded-lg bg-[#343444] shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="bg-black px-5 py-3">
@@ -84,13 +84,7 @@ export default function Navbar() {
                     href="/"
                     className="flex items-center space-x-1  bg-gradient-to-l from-[#e250e5] to-[#4b50e6] bg-clip-text"
                   >
-                    <FireIcon className="h-8 w-auto fill-black stroke-[white] sm:h-10" />
-                    <span
-                      style={{ WebkitTextStroke: "3px transparent" }}
-                      className="bg-gradient-to-l from-[#e250e5] to-[#4b50e6] bg-clip-text fill-[#14141f] text-4xl font-bold"
-                    >
-                      NFT
-                    </span>
+                    <img className="h-10 w-28" src={logo} />
                   </a>
                 </div>
                 <div className="-mr-2">
@@ -112,9 +106,11 @@ export default function Navbar() {
                     <button
                       key={i}
                       href={nav.route}
-                      className={`rounded-md py-2 px-2 text-base font-medium  text-white hover:bg-gray-900
+                      className={`rounded-md py-2 px-2 text-base font-medium  text-white hover:bg-gray-primary hover:bg-gray-900
                         ${
-                          i === 0 ? " bg-gray-900 text-[#e250e5] " : "text-white"
+                          i === 0
+                            ? " bg-gray-900 text-[#e250e5] "
+                            : "text-white"
                         }
                         `}
                     >
@@ -124,13 +120,6 @@ export default function Navbar() {
                   );
                 })}
               </div>
-              <a
-                href="#"
-                className="flex items-center space-x-2 whitespace-nowrap rounded-md border-2 border-solid border-gray-900 bg-transparent py-2 px-6 text-sm font-medium text-white hover:bg-gray-900 sm:hidden md:mr-0"
-              >
-                <WalletIcon className="h5 w-5 sm:h-6" />{" "}
-                <span>Connect Wallet</span>
-              </a>
             </div>
           </div>
         </Popover.Panel>
