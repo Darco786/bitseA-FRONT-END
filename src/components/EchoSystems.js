@@ -1,4 +1,6 @@
 import { CalendarIcon } from "@heroicons/react/24/outline";
+import {HiOutlineBuildingStorefront} from 'react-icons/hi2'
+import {GiSwordSmithing} from 'react-icons/gi'
 import React from "react";
 
 const EchoSystems = () => {
@@ -10,7 +12,7 @@ const EchoSystems = () => {
       <div className="flex justify-center flex-wrap  mx-4">
         <div className="h-72 w-72 m-2 bg-[#ffffff14]  rounded-lg flex flex-col items-center justify-center hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer">
           <div className="h-20 w-20 rounded-full shadow-lg bg-[#ffffff21] flex justify-center items-center mb-14">
-            <CalendarIcon className="h-8 w-8 text-white" />
+            <HiOutlineBuildingStorefront className="h-8 w-8 text-white" />
           </div>
           <div className="text-white text-lg px-10 text-center">
             Ordinal exclusive NFT marketplace
@@ -18,7 +20,7 @@ const EchoSystems = () => {
         </div>
         <div className="h-72 w-72 m-2 bg-[#ffffff14] hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer  rounded-lg flex flex-col items-center justify-center">
           <div className="h-20 w-20 rounded-full shadow-lg bg-[#ffffff21] flex justify-center items-center mb-14">
-            <CalendarIcon className="h-8 w-8 text-white" />
+            <GiSwordSmithing className="h-8 w-8 text-white" />
           </div>
           <div className="text-white text-lg px-10 text-center">
             NFT Minter & launch pad{" "}

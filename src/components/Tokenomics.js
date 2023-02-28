@@ -6,7 +6,7 @@ export default function Tokenomics() {
     return (
         <div className="text-white">
             <div>
-                <h1 className="text-white font-primary font-[700] text-4xl leading-[46px] text-center">TOKENOMICS & TOKEN INFO</h1>
+                <h1 className="text-white font-primary font-[700] text-4xl leading-[46px] text-center">TOKENOMICS </h1>
             </div>
             <div class="flex justify-center content-center my-10">
                 <div className="w-11/12 bg-gray-primary h-auto p-[49px] rounded-[29px]">
