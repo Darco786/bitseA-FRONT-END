@@ -5,7 +5,7 @@ const EchoSystems = () => {
   return (
     <>
       <h1 className="text-white mt-32 mb-14 font-primary font-[700] text-4xl leading-[46px] text-center">
-        BTSEA ECHOSYSTEM
+        BTSEA ECOSYSTEM
       </h1>
       <div className="flex justify-center flex-wrap  mx-4">
         <div className="h-72 w-72 m-2 bg-[#ffffff14]  rounded-lg flex flex-col items-center justify-center hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer">
@@ -41,10 +41,10 @@ const EchoSystems = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-white mt-14 mb-32 font-primary font-[700] text-xl leading-[46px] text-center">
+      {/* <h1 className="text-white mt-14 mb-32 font-primary font-[700] text-xl leading-[46px] text-center">
         EXPLORE EACH INSCRIPTION AND ORDINAL EXACTLY LIKE YOU WOULD ON BITCOIN'S
         BLOCKCHAIN
-      </h1>
+      </h1> */}
     </>
   );
 };

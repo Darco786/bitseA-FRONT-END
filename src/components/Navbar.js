@@ -1,10 +1,9 @@
 import logo from "../assets/logo.png";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { FireIcon } from "@heroicons/react/24/solid";
-import { Bars3Icon, XMarkIcon, WalletIcon } from "@heroicons/react/24/outline";
-import icon from "../assets/Vector.png";
-import icon1 from "../assets/Vector (1).png";
+import {BsTwitter} from 'react-icons/bs'
+import { Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
+import {FaTelegramPlane,FaDiscord} from 'react-icons/fa'
 let navItems = [
   { label: "Home", route: "/" },
   { label: "BUY", route: "buy" },
@@ -39,9 +38,20 @@ export default function Navbar() {
               );
             })}
           </Popover.Group>
-          <div className=" flex items-center justify-end md:flex md:flex-1 lg:w-0">
-            <img className="mx-2" src={icon} alt="pt-img" />
-            <img className="mx-2" src={icon1} alt="pt-img" />
+          <div className=" flex items-center gap-3 justify-end md:flex md:flex-1 lg:w-0">
+          <a href="/"  className=' cursor-pointer  text-white text-xl'>
+              <FaTelegramPlane/>
+              </a>
+              <a href="/"  className=' cursor-pointer  text-white text-xl'>
+              <BsTwitter/>
+              </a>
+             
+              <a href="/"  className=' cursor-pointer  text-white text-xl'>
+              < FaDiscord/>
+              </a>
+             
+            {/* <img className="mx-2" src={icon} alt="pt-img" /> */}
+            {/* <img className="mx-2" src={icon1} alt="pt-img" /> */}
             <a
               href="/Wallet"
               className="mr-8 ml-3 hidden items-center space-x-2 whitespace-nowrap rounded-full  py-2 px-6 text-sm font-medium text-black bg-white hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer sm:flex md:mr-0"
@@ -84,7 +94,7 @@ export default function Navbar() {
                     href="/"
                     className="flex items-center space-x-1  bg-gradient-to-l from-[#e250e5] to-[#4b50e6] bg-clip-text"
                   >
-                    <img className="h-10 w-28" src={logo} />
+                    <img className="h-10 w-28" src={logo} alt='' />
                   </a>
                 </div>
                 <div className="-mr-2">
