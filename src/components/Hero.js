@@ -9,7 +9,7 @@ const Hero = () => {
      <img src={Sideb} alt="" className="side-b"/>
       <div className="flex flex-col justify-start">
         <h1 className="text-white  flex flex-col justify-start items-start mb-5 text-3xl font-semibold md:text-2xl md:leading-9 lg:text-4xl lg:leading-[3.5rem]">
-          <div className="flex items-center font-primary text-4xl leading-[46px] font-extrabold tracking-wide">
+          <div className="flex items-center font-primary leading-[46px] font-extrabold tracking-wide text-lg sm:text-4xl ">
             Explore <img src={btn1} className="h-10 w-28 mx-5 rounded-lg" alt='pt-img'/>
             <span>Mint</span>
           </div>
@@ -18,10 +18,10 @@ const Hero = () => {
         <h1 className="text-purple-700 flex items-center mb-5 text-3xl font-semibold md:text-2xl md:leading-9 lg:text-4xl lg:leading-[3.5rem]">
           ON BITCOIN <img src={btn2} alt='' className="h-10 w-28 mx-5 rounded-lg" />
         </h1>
-        <p className="text-base text-white md:text-sm md:leading-6 lg:text-lg lg:leading-8">
+        <p className="text-sm sm:text-base text-white md:text-sm md:leading-6 lg:text-lg lg:leading-8">
           ONE STOP SHOP FOR ORDINALS & INSCRIPTIONS
         </p>
-        <p className="mb-10 text-base text-white md:text-sm md:leading-6 lg:text-lg lg:leading-8">
+        <p className="mb-10 text-sm sm:text-base text-white md:text-sm md:leading-6 lg:text-lg lg:leading-8">
           100% ON-CHAIN BITCOIN DIGITAL COLLECTIBLES{" "}
         </p>
         <div className="mb-7 flex items-center space-x-4 z-10">
