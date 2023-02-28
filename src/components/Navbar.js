@@ -39,14 +39,14 @@ export default function Navbar() {
             })}
           </Popover.Group>
           <div className=" flex items-center gap-3 justify-end md:flex md:flex-1 lg:w-0">
-          <a href="/"  className=' cursor-pointer  text-white text-xl'>
+          <a href="/"  className=' cursor-pointer  text-white text-xl hover:text-purple-700'>
               <FaTelegramPlane/>
               </a>
-              <a href="/"  className=' cursor-pointer  text-white text-xl'>
+              <a href="/"  className=' cursor-pointer  text-white text-xl hover:text-purple-700'>
               <BsTwitter/>
               </a>
              
-              <a href="/"  className=' cursor-pointer  text-white text-xl'>
+              <a href="/"  className=' cursor-pointer  text-white text-xl hover:text-purple-700'>
               < FaDiscord/>
               </a>
              

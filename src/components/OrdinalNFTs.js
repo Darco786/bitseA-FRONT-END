@@ -3,7 +3,7 @@ import img1 from "../assets/nft (1).png";
 import img2 from "../assets/nft (2).png";
 import img3 from "../assets/nft (3).png";
 import img4 from "../assets/nft (4).png";
-import img5 from "../assets/nft (5).png";
+import img5 from "../assets/bat.svg";
 import img6 from "../assets/elements/bit2.png";
 import img7 from "../assets/elements/blue.png";
 
