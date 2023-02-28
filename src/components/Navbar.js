@@ -53,7 +53,7 @@ export default function Navbar() {
             {/* <img className="mx-2" src={icon} alt="pt-img" /> */}
             {/* <img className="mx-2" src={icon1} alt="pt-img" /> */}
             <a
-              href="/Wallet"
+              href="https://bitsea-dashboard.vercel.app/"
               className="mr-8 ml-3 hidden items-center space-x-2 whitespace-nowrap rounded-full  py-2 px-6 text-sm font-medium text-black bg-white hover:bg-gradient-to-r from-[#3C2B9E] to-[#8D08EB] cursor-pointer sm:flex md:mr-0"
             >
               <span>LAUNCH APP</span>
