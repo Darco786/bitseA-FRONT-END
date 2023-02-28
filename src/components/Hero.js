@@ -16,7 +16,7 @@ const Hero = () => {
           TRADE RARE NFTs,
         </h1>
         <h1 className="text-purple-700 flex items-center mb-5 text-3xl font-semibold md:text-2xl md:leading-9 lg:text-4xl lg:leading-[3.5rem]">
-          ON BITCOIN <img src={btn2} className="h-10 w-28 mx-5 rounded-lg" />
+          ON BITCOIN <img src={btn2} alt='' className="h-10 w-28 mx-5 rounded-lg" />
         </h1>
         <p className="text-base text-white md:text-sm md:leading-6 lg:text-lg lg:leading-8">
           ONE STOP SHOP FOR ORDINALS & INSCRIPTIONS
@@ -44,6 +44,7 @@ const Hero = () => {
         alt=""
         className="w-full max-w-3xl rounded-md md:-translate-y-24 md:scale-125 sm:-translate-x-16"
         src={heroImg}
+    
       />
     </div>
   );
