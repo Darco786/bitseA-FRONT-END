@@ -4,7 +4,7 @@ import radarChart from '../assets/radar-chart.png';
 
 export default function Tokenomics() {
     return (
-        <div className="text-white">
+        <div className="text-white" id="token">
             <div>
                 <h1 className="text-white font-primary font-[700] text-4xl leading-[46px] text-center">TOKENOMICS </h1>
             </div>

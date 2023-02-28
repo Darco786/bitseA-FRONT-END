@@ -8,8 +8,8 @@ let navItems = [
   { label: "Home", route: "/" },
   { label: "BUY", route: "buy" },
   { label: "CHART", route: "chart" },
-  { label: "ROAD MAP", route: "wallet" },
-  { label: "TOKEN INFO", route: "tokeninfo" },
+  
+  { label: "TOKEN INFO", route: "#tokeninfo" },
 ];
 
 export default function Navbar() {
