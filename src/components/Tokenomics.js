@@ -8,7 +8,7 @@ export default function Tokenomics() {
             <div>
                 <h1 className="text-white font-primary font-[700] text-4xl leading-[46px] text-center">TOKENOMICS </h1>
             </div>
-            <div class="flex justify-center content-center my-10">
+            <div class="flex justify-center content-center my-10 flex-col-reverse sm:flex-row">
                 <div className="w-11/12 bg-gray-primary h-auto p-[49px] rounded-[29px]">
                     <div class="flex space-x-14">
                         <div className="w-8/12">
@@ -54,7 +54,7 @@ export default function Tokenomics() {
 
                             </div>
                         </div>
-                        <div className="items-center ">
+                        <div className="items-center text-center ">
                             <img className="" src={radarChart} alt='' />
                             <p className="text-white font-primary font-[600] text-base leading-[20px] text-center mt-[19px]">TAX: 0%</p>
                         </div>

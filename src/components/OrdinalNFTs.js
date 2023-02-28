@@ -13,7 +13,7 @@ const OrdinalNFTs = () => {
       <h1 className="text-white mt-32 mb-20 font-primary font-[700] text-4xl leading-[46px] text-center">
         ORDINAL NFTs
       </h1>
-      <div className="flex justify-center items-center flex-wrap ">
+      <div className="flex justify-center items-center flex-wrap flex-col sm:flex-row">
         <div className="h-60 w-60  rounded-lg flex flex-col mx-2 my-5 items-center justify-center">
           <img className="h-full w-full" src={img2}  alt='pt-img'/>
         </div>
