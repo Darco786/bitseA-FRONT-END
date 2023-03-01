@@ -9,7 +9,7 @@ let navItems = [
   { label: "BUY", route: "buy" },
   { label: "CHART", route: "chart" },
   
-  { label: "TOKEN INFO", route: "#tokeninfo" },
+  // { label: "TOKEN INFO", route: "#tokeninfo" },
 ];
 
 export default function Navbar() {

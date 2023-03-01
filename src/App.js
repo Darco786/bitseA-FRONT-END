@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import OrdinalNFTs from "./components/OrdinalNFTs";
 import Platforms from "./components/Platforms";
 // import RoadMaps from "./components/RoadMaps";
-import Tokenomics from "./components/Tokenomics";
+// import Tokenomics from "./components/Tokenomics";
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         <EchoSystems />
         <OrdinalNFTs />
         {/* <RoadMaps /> */}
-        <Tokenomics />
+        {/* <Tokenomics /> */}
         <Footer />
       </div>
     </div>
