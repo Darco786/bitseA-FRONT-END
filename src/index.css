@@ -216,7 +216,6 @@ body {
 
 .swiper_container {
   height: 320px;
-  padding: 2rem 0;
   position: relative;
 }
 
@@ -233,8 +232,25 @@ body {
 
 
 }
+.imgCorner{
+  height:230px !important;
+  width:230px !important;
+  border-radius: 10px;
+}
 
-
+@media (max-width: 500px) {
+  .swiper_container {
+    height: 160px;
+  }
+  .swiper-slide {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .swiper-slide img, .imgCorner {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
 
 
 .swiper-slide-shadow-left,
@@ -243,20 +259,13 @@ body {
 }
 
 .slider-controler {
-  position: relative;
+  left: 0;
+  right: 0;
   bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-
-
-
-
-
-
-
 
 
 

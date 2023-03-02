@@ -6,6 +6,8 @@ import img4 from "../assets/nft (4).png";
 import img5 from "../assets/bat.svg";
 import img6 from "../assets/elements/bit2.png";
 import img7 from "../assets/elements/blue.png";
+import img8 from "../assets/cornerImg.png";
+import img9 from "../assets/cornerImg1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -22,8 +24,9 @@ const OrdinalNFTs = () => {
         <h1 className="text-white mt-32 mb-20 font-primary font-[700] text-4xl leading-[46px] text-center">
           ORDINAL NFTs
         </h1>
-        <div className="container">
+        <div className="container relative">
           <Swiper
+            autoplay={true}
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
@@ -42,9 +45,22 @@ const OrdinalNFTs = () => {
               clickable: true,
             }}
             modules={[EffectCoverflow, Pagination, Navigation]}
-            className="swiper_container"
+            className="swiper_container mt-0 relative"
           >
-            <SwiperSlide >
+            <img
+              src={img8}
+              style={{
+                transitionDuration: "0ms",
+                transform:
+                  "translate3d(-270px, 25px, -270px) rotateX(0deg) rotateY(0deg) scale(1)",
+                zIndex: 4,
+                left:"0px"
+              }}
+              className="absolute left-[-10px] top-0 bottom-0 h-[280px] w-[280px] imgCorner"
+              alt="slide_image"
+            />
+
+            <SwiperSlide>
               <img src={img1} alt="slide_image" />
             </SwiperSlide>
             <SwiperSlide>
@@ -59,82 +75,35 @@ const OrdinalNFTs = () => {
             <SwiperSlide>
               <img src={img5} alt="slide_image" />
             </SwiperSlide>
-            <SwiperSlide>
-              <img src={img6} alt="slide_image" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img7} alt="slide_image" />
-            </SwiperSlide>
-
-         
+            <img
+              src={img9}
+              style={{
+                transitionDuration: "0ms",
+                transform:
+                  "translate3d(1166px, 25px, -270px) rotateX(0deg) rotateY(0deg) scale(1)",
+                zIndex: 4,
+                left:"0px"
+              }}
+              className="absolute right-[-10px] top-0 bottom-0 imgCorner rounded-md"
+              alt="slide_image"
+            />
           </Swiper>
-        </div>
-        {/* <div className="container">
-          <Swiper
-            effect={"coverflow"}
-            grabCursor={true}
-            centeredSlides={true}
-            loop={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 0,
-              stretch: 0,
-              depth: 100,
-              modifier: 2.5,
-            }}
-            pagination={{ el: ".swiper-pagination", clickable: true }}
-            navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-              clickable: true,
-            }}
-            modules={[EffectCoverflow, Pagination, Navigation]}
-            className="swiper_container"
-          >
-            <SwiperSlide>
-            
-                <img className="h-full w-full" src={img2} alt="pt-img" />
-             
-            </SwiperSlide>
-            <SwiperSlide>
-     
-         
-                <img className="h-full w-full" src={img1} alt="pt-img" />
-       
-            </SwiperSlide>
 
-            <SwiperSlide>
-              
-                {" "}
-                <img className="h-full w-full" src={img5} alt="pt-img" />
-     
-            </SwiperSlide>
-            <SwiperSlide>
-              
-                {" "}
-                <img className="h-full w-full" src={img4} alt="pt-img" />
-           
-            </SwiperSlide>
-            <SwiperSlide>
-         
-                {" "}
-                <img className="h-full w-full" src={img3} alt="pt-img" />
-           
-            </SwiperSlide>
-            <div className="slider-controler">
-              <div className="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div className="swiper-button-next slider-arrow">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-              <div className="swiper-pagination"></div>
+          <div className="slider-controler absolute top-0 bottom-0">
+            <div className="swiper-button-prev slider-arrow h-10 w-10 rounded-full">
+              <ion-icon
+                name="arrow-back-outline "
+                className="h-2 w-2"
+              ></ion-icon>
             </div>
-          </Swiper>
-        </div>
+            <div className="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+          </div>
 
-        <img src={img6} alt="" className="bit-2" />
-        <img src={img7} alt="" className="bit-3" /> */}
+          <img src={img6} alt="" className="bit-2" />
+          <img src={img7} alt="" className="bit-3" />
+        </div>
       </div>
     </>
   );

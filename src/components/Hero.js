@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="Hero mt-10 ml-10 grid grid-cols-1 content-center md:grid-cols-2 md:gap-x-10 md:py-10 lg:mt-14 lg:grid-cols-2 lg:gap-x-56">
      <img src={Sideb} alt="" className="side-b"/>
-      <div className="flex flex-col justify-start">
+      <div className="flex flex-col justify-start mx-auto md:mx-0">
         <h1 className="text-white  flex flex-col justify-start items-start mb-5 text-3xl font-semibold md:text-2xl md:leading-9 lg:text-4xl lg:leading-[3.5rem]">
           <div className="flex items-center font-primary leading-[46px] font-extrabold tracking-wide text-lg sm:text-4xl ">
             Explore <img src={btn1} className="h-10 w-28 mx-5 rounded-lg" alt='pt-img'/>
