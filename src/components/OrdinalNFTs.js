@@ -6,8 +6,6 @@ import img4 from "../assets/nft (4).png";
 import img5 from "../assets/bat.svg";
 import img6 from "../assets/elements/bit2.png";
 import img7 from "../assets/elements/blue.png";
-import "./Swiper.css";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -25,6 +23,53 @@ const OrdinalNFTs = () => {
           ORDINAL NFTs
         </h1>
         <div className="container">
+          <Swiper
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            loop={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth: 100,
+              modifier: 2.5,
+            }}
+            pagination={{ el: ".swiper-pagination", clickable: true }}
+            navigation={{
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+              clickable: true,
+            }}
+            modules={[EffectCoverflow, Pagination, Navigation]}
+            className="swiper_container"
+          >
+            <SwiperSlide >
+              <img src={img1} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img2} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img3} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img4} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img5} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img6} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img7} alt="slide_image" />
+            </SwiperSlide>
+
+         
+          </Swiper>
+        </div>
+        {/* <div className="container">
           <Swiper
             effect={"coverflow"}
             grabCursor={true}
@@ -89,7 +134,7 @@ const OrdinalNFTs = () => {
         </div>
 
         <img src={img6} alt="" className="bit-2" />
-        <img src={img7} alt="" className="bit-3" />
+        <img src={img7} alt="" className="bit-3" /> */}
       </div>
     </>
   );
