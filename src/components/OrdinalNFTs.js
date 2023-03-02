@@ -38,10 +38,9 @@ const OrdinalNFTs = () => {
               depth: 100,
               modifier: 2.5,
             }}
-            pagination={{ el: ".swiper-pagination", clickable: true }}
+            pagination={{  clickable: true }}
             navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
+            
               clickable: true,
             }}
             modules={[EffectCoverflow, Pagination, Navigation]}
@@ -73,9 +72,13 @@ const OrdinalNFTs = () => {
               <img src={img4} alt="slide_image" />
             </SwiperSlide>
             <SwiperSlide>
+              <img src={img2} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
               <img src={img5} alt="slide_image" />
             </SwiperSlide>
-            <img
+       
+            {/* <img
               src={img9}
               style={{
                 transitionDuration: "0ms",
@@ -86,10 +89,10 @@ const OrdinalNFTs = () => {
               }}
               className="absolute right-[-10px] top-0 bottom-0 imgCorner rounded-md"
               alt="slide_image"
-            />
+            /> */}
           </Swiper>
 
-          <div className="slider-controler absolute top-0 bottom-0">
+          {/* <div className="slider-controler absolute top-0 bottom-0">
             <div className="swiper-button-prev slider-arrow h-10 w-10 rounded-full">
               <ion-icon
                 name="arrow-back-outline "
@@ -99,12 +102,14 @@ const OrdinalNFTs = () => {
             <div className="swiper-button-next slider-arrow">
               <ion-icon name="arrow-forward-outline"></ion-icon>
             </div>
-          </div>
+          </div> */}
 
-          <img src={img6} alt="" className="bit-2" />
-          <img src={img7} alt="" className="bit-3" />
+       
         </div>
       </div>
+      <img src={img7} alt="" className="bit-3" />
+      <img src={img6} alt="" className="bit-2" />
+         
     </>
   );
 };
